@@ -63,11 +63,6 @@ echo "[#Install colcon to build packages]"
 sudo apt install python3-colcon-common-extensions
 
 
-#echo "[#Install ros2bag]" # 기본 설치되어 있음
-#sudo apt install ros-foxy-ros2bag ros-foxy-rosbag2-transport
-#sudo apt install ros-foxy-rosbag2-storage-default-plugins # ROS1과 데이터 저장방식이 달라서 플러그인을 설치해야 한다.
-
-
 #echo "[#ros2_example_ws git clone / build / install]"
 #Create a workspace
 mkdir -p ~/ros2_example_ws/src
