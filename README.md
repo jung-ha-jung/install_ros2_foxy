@@ -4,7 +4,7 @@ ROS2 foxy 설치 (Ubuntu 20.04)
 
     ROS2 1줄 설치 방법
 
-$ sudo wget https://raw.githubusercontent.com/jung-ha-jung/install_ros2_foxy/master/install_ros2_foxy.sh && chmod 755 ./install_ros2_dashing.sh && ./install_ros2_dashing.sh
+$ sudo wget https://raw.githubusercontent.com/jung-ha-jung/install_ros2_foxy/master/install_ros2_foxy.sh && chmod 755 ./install_ros2_foxy.sh && ./install_ros2_foxy.sh
 
     ROS2 수동 설치 방법
 
@@ -16,7 +16,7 @@ $ sudo wget https://raw.githubusercontent.com/jung-ha-jung/install_ros2_foxy/mas
 
     ROS2 환경 설정 : $ gedit .bashrc 입력한 후 bash 파일의 마지막에 "source /opt/ros/foxy/setup.bash” 추가
 
-    ros2 bag 설치 :
+    ros2 bag 설치 : foxy는 desktop-full에 포함되어 있음
 
     $ sudo apt install ros-dashing-ros2bag ros-foxy-rosbag2-transport
 
